@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+*{
+  
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+} 
+:root{
+    --blue:#2196F3;
+    --black:#212121;
+    --grey: #757575;
+    --detail-color: rgb(255, 255, 255);
+    --var-color-fondo-hover-focus: #2196F3;
+}
+body{
+font-family:'Roboto', sans-serif;
+ background-color:white;
+ color: #000;
+}
+
+.logo-blue{
+    color:var(--blue);
+text-align: right;
+font-family: 'Raleway';
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: 0.03em;
+cursor: pointer;
+}
+
+.link{
+    color:#212121;
+    font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.17em;
+letter-spacing: 0.02em;
+text-align: left;
+cursor: pointer;
+}
+
+.link:hover,
+.link:focus{
+    color: var(--blue);
+    outline: none;
+}
+
+.header-email{
+    font-family: 'Roboto', sans-serif;
+    color: #757575;
+font-size: 14px;
+font-style:normal;
+font-weight: 500;
+line-height:1.17em;
+letter-spacing: 0.03em;
+   cursor: pointer;
+   fill:rgba(255, 255, 255, 0.6)
+}
+
+.header-email:hover,
+.header-email:focus{
+    fill: var(--blue);
+    outline: none;
+}
+
+.header-tel {
+    
+    color: #757575;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height:1.17em;
+    letter-spacing: 0.03px;
+    cursor: pointer;
+    fill: rgba(255, 255, 255, 0.6)
+}
+.header-tel:hover,
+.header-tel:focus {
+    fill: var(--blue);
+    outline: none;
+}
+
+.hero-btn{
+    background-color: var(--blue);
+    color:#ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.18em;
+    font-family:'Roboto', sans-serif;
+font-weight: 700;
+letter-spacing: 0.06em;
+padding:10px 20px;
+border-radius: 4px;
+
+}
+.hero-title{
+    font-family:'Roboto', sans-serif;
+    color: #ffffff;
+    line-height:1.3em;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0.03em;
+    text-transform: uppercase; 
+    text-align: center;
+
+
+}
+
+.politicas-title{
+    color: #212121;
+    font-family:'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height:1.17em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.politicas-text{
+    color: #757575;
+font-family:'Roboto', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71em;
+letter-spacing: 0.03em;
+text-align: justify;
+  }
+.diseño-title{
+    color: #212121;
+    font-family:'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height:1.17em;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.diseño-block{
+    width: 373.16px;
+line-height:1.15em;
+
+
+}
+.equipo-title{
+    color: #212121;
+    font-family:'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height:1.17em;
+    letter-spacing:0.03em;
+}
+.equipo-name{
+    color: #212121;
+    font-family:'Roboto', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height:1.17em;
+letter-spacing: 0.03em;
+margin:0;
+}
+.equipo-sub-title{
+    color: #757575;
+    font-family:'Roboto', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height:1.17em;
+letter-spacing: 0.03em;
+margin-top:0px;
+}
+.directions__container{
+    background:#2F303A ;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8em;
+font-size:16px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: 0.03em;
+}
+
+
+.headr-button{
+    color: #212121;
+font-family: 'Roboto', sans-serif;
+font-size: 23px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.6em; 
+width: 98;
+height: 26;
+}
+.button-chang:hover{
+    background: var(--blue);
+   cursor: pointer;
+}
+.button-chang:focus{
+    background:  var(--blue);
+    color: #ffffff;
+    cursor: pointer;
+}
+.team-diseño{
+    color: #212121;
+    font-family:'Roboto', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2em;
+    letter-spacing: 0.02em;  
+    
+}
+
+.team-diseño:hover{
+color: #757575; 
+    
+}
+.team-profec{
+color: #757575;
+font-family:'Roboto', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height:1.8em;
+letter-spacing: 0.4;
+
+}
+
+
+/*     estilos del header menu principal web studio */
+
+
+.container{
+    
+width:1200px;
+padding:0 15px;
+margin: 0 auto;
+}
+
+.navigation__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__navegation{
+    display: flex;
+    column-gap: 80px;
+    justify-content: center;
+    align-content: center;
+   /* padding: 25px; */
+}
+
+.hero__contact{
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pv-main{
+    padding: 5px 0;
+}
+.p-0{
+    padding: 0px;
+}
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none
+}
+.header-menu.current{
+color:var(--blue);
+}
+
+/* ------segunda seccion titulo-------------------------------------------------------*/
+.hero{
+    background-color: var(--black) ;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    line-height: 1.8em;
+    height:600px ;
+font-size:16px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: 0.03em;
+background-image:linear-gradient(to bottom,
+rgba(47, 48, 58, 0.4),
+rgba(0,0,0,0.4)
+), url(../images/soluciones\ eficases.jpg);
+}
+.section{
+    padding-bottom: 94px;
+    padding-top:94px;
+
+}
+.title_container{
+    display: flex;
+    flex-direction: column;
+    width:800px;
+    align-items: center;
+}
+/*---------tercera seccion productos----------*/
+
+.about__galery{
+    display: flex;
+    gap: 30px;
+
+}
+
+.about__imagenes{
+    width: 270px;
+    height: 120px;
+    background-color: rgba(245, 244, 250, 1);
+border-radius:4px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.about__imagenes:hover{
+       fill: var(--blue);
+       
+
+
+}
+.politicas-list:focus{
+   color:  var(--blue);
+    
+}
+    
+/*------------cuarta seccion diseño------------*/
+
+.diseño__container{
+    display: flex;
+   justify-content: center;
+ gap: 20px;
+ padding:0px;
+
+}
+.about__img{
+    display: flex;
+gap: 23px;
+justify-content: center;
+}
+/*---------------quinta--------*/
+
+
+.about__redes{
+   display: flex;
+  justify-content: center;
+  padding-top:16px;
+  padding-bottom:42px;
+  gap:12px;
+}
+
+.redes{
+    background-color:rgb(255, 255, 255);
+   border-radius:50%;
+   width: 44px;
+    height:44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: rgba(175, 177, 184, 1);
+}
+.social:hover,
+.social:focus,
+.redes:hover,
+.redes:focus{
+    background-color: #2196F3;
+    fill: var(--detail-color);
+outline: none;
+}
+
+
+/*---------sexta--------*/
+
+.equipo__container{
+    background: #F5F4FA;
+    display: flex;
+    justify-content: center;
+}
+
+.equipo__img{
+    display:flex ;
+    gap:20px;
+    justify-content: center;  
+}
+.Equipo-list-item{
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px 0px rgba(0 0 0 / 0.2),
+     0px 1px 1px 0px rgba(0 0 0 / 0.14), 
+     0px 1px 3px 0px rgba(0 0 0 / 0.12);
+}
+
+.equipo-name{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    padding:30px;
+}
+.equipo-sub-title{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column; 
+margin-top:0px;
+}
+/*--------------septima-----------*/
+.section-clientes{
+padding-top:94px ;
+padding-bottom:94px ;
+}
+.item-logit{
+    color: #212121;
+    margin:auto;
+    font-family: 'Roboto', sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.16em;
+letter-spacing: 0.03em;
+text-align: center;
+padding-bottom: 44px;
+padding-top: 59px;
+}
+.about__logits{
+    display: flex;
+    gap:30px;
+}
+.logits{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 170px;
+height: 81px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+fill:rgba(175, 177, 184, 1) ;
+}
+.logits:hover,
+.logits:focus{
+    fill:var(--blue);
+border: 2px solid var(--var-color-fondo-hover-focus);
+border-radius: 2px;
+outline: none;
+} 
+
+/*-----------------footer-------------*/
+
+.directions__container{
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 70px;
+}
+
+.container-footer{
+    margin-left:215px ;
+}
+.header__link{
+ list-style: none;
+    font-style: normal;
+    padding: 0%;
+    width: 231px;
+    height: 92px;
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height:1.71em;
+letter-spacing: 0.42px;
+}
+.header-direccio{ 
+    color:    rgba(255, 255, 255, 1)
+}
+.header-email:hover,
+.header-tel:hover,
+.header-direccio:hover{
+    color: var(--blue);
+}
+
+.hero-triton_container{
+  background-color:   rgba(47, 48, 58, 1);
+    display: flex;
+    justify-content:center;
+    padding-left:  15px;
+padding-top:60px;
+padding-bottom:60px;
+
+}
+.title-footer{
+    font-family:'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.6em;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+  
+}
+
+.social{
+    background-color:rgba(255, 255, 255, 0.1) ;
+    border-radius:50%;
+    width: 44px;
+     height:44px;
+     display:inline-flex;
+     justify-content: center;
+     align-items: center;
+     fill: rgba(175, 177, 184, 1);
+}
+
+
+/*---------porfolio----------*/
+
+.button{
+    display: flex;
+    justify-content:center;
+    gap:15px;
+    padding:94px;
+}
+
+.team-imag__container{
+    display: flex;
+    flex-wrap:wrap;
+    gap:25px; 
+} 
+.team-imags{
+   
+    flex-basis: calc((100% - 60px) / 9);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 4px;    
+}
+.team-imags:hover{
+    box-shadow: 4px 6px 0px rgba(0, 0, 0, 0.16),
+0px 4px 4px 0px rgba(0, 0, 0, 0.06), 
+0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
