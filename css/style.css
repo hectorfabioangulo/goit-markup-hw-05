@@ -11,6 +11,7 @@ box-sizing: border-box;
     --grey: #757575;
     --detail-color: rgb(255, 255, 255);
     --var-color-fondo-hover-focus: #2196F3;
+    --var--var-colo-text-hover-focus :#FFF;
 }
 body{
 font-family:'Roboto', sans-serif;
@@ -30,7 +31,7 @@ cursor: pointer;
 }
 
 .link{
-    color:#212121;
+    color:rgba(33, 33, 33, 1);
     font-family: 'Roboto', sans-serif;
 font-size: 14px;
 font-weight: 500;
@@ -43,7 +44,7 @@ cursor: pointer;
 .link:hover,
 .link:focus{
     color: var(--blue);
-    outline: none;
+   outline: none;
 }
 
 .header-email{
@@ -55,13 +56,13 @@ font-weight: 500;
 line-height:1.17em;
 letter-spacing: 0.03em;
    cursor: pointer;
-   fill:rgba(255, 255, 255, 0.6)
+
 }
 
 .header-email:hover,
 .header-email:focus{
     fill: var(--blue);
-    outline: none;
+   
 }
 
 .header-tel {
@@ -74,13 +75,14 @@ letter-spacing: 0.03em;
     line-height:1.17em;
     letter-spacing: 0.03px;
     cursor: pointer;
-    fill: rgba(255, 255, 255, 0.6)
+  
 }
 .header-tel:hover,
-.header-tel:focus {
+.header-tel:focus{
     fill: var(--blue);
-    outline: none;
 }
+
+
 
 .hero-btn{
     background-color: var(--blue);
@@ -197,11 +199,11 @@ line-height: 1.6em;
 width: 98;
 height: 26;
 }
-.button-chang:hover{
+.fiter-button:hover{
     background: var(--blue);
    cursor: pointer;
 }
-.button-chang:focus{
+.fiter-button:focus{
     background:  var(--blue);
     color: #ffffff;
     cursor: pointer;
@@ -342,13 +344,14 @@ align-items: center;
     display: flex;
    justify-content: center;
  gap: 20px;
- padding:0px;
+ padding-bottom: 50px;
 
 }
 .about__img{
     display: flex;
-gap: 23px;
+gap: 30px;
 justify-content: center;
+padding-bottom:94px;
 }
 /*---------------quinta--------*/
 
@@ -387,12 +390,14 @@ outline: none;
     background: #F5F4FA;
     display: flex;
     justify-content: center;
+    padding-bottom:50px;
 }
 
 .equipo__img{
     display:flex ;
     gap:20px;
-    justify-content: center;  
+    justify-content: center;
+    padding-bottom:94px;  
 }
 .Equipo-list-item{
     background-color: white;
@@ -457,18 +462,21 @@ outline: none;
 
 /*-----------------footer-------------*/
 
+
+
 .directions__container{
-    display: flex;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 60px;
     padding-bottom: 60px;
     gap: 70px;
 }
-
-.container-footer{
-    margin-left:215px ;
+.address{
+    display: flex;
+    align-items: baseline;
+    gap:70px;
 }
+
 .header__link{
  list-style: none;
     font-style: normal;
@@ -485,14 +493,18 @@ letter-spacing: 0.42px;
 .header-direccio{ 
     color:    rgba(255, 255, 255, 1)
 }
+
 .header-email:hover,
-.header-tel:hover,
-.header-direccio:hover{
+.header-tel:hover{
     color: var(--blue);
 }
-
+.header-email:focus,
+.header-tel:focus{
+    color: var(--blue);
+    outline: none;
+}
 .hero-triton_container{
-  background-color:   rgba(47, 48, 58, 1);
+      background-color:   rgba(47, 48, 58, 1);
     display: flex;
     justify-content:center;
     padding-left:  15px;
@@ -518,7 +530,7 @@ padding-bottom:60px;
      height:44px;
      display:inline-flex;
      justify-content: center;
-     align-items: center;
+   align-items: center;
      fill: rgba(175, 177, 184, 1);
 }
 
@@ -530,6 +542,109 @@ padding-bottom:60px;
     justify-content:center;
     gap:15px;
     padding:94px;
+}
+.fiter-button{
+    cursor: pointer;
+    width: 73px;
+height: 38px;
+font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625em;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:rgba(255, 255, 255, 1);
+    border: 2px solid rgba(245, 244, 250, 1);
+    border-radius: 4px;
+    Background: var(--blue);
+
+
+
+}
+.fiter-buttonw{
+    color:rgba(33, 33, 33, 1);
+    width: 128px;
+height: 38px;
+    text-align: center;
+    font-family:  'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.625em;
+    letter-spacing: 0.48px; 
+    border-radius: 4px;
+    border: 2px solid rgba(245, 244, 250, 1);
+}
+.fiter-buttona{
+    color: rgba(33, 33, 33, 1);
+    width: 145px;
+height: 38px;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.625em;
+letter-spacing: 0.48px;
+border-radius: 4px;
+    border: 2px solid rgba(245, 244, 250, 1) ;
+}
+.fiter-buttond{
+    color: rgba(33, 33, 33, 1);
+    width: 103px;
+height: 38px;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.625em;
+letter-spacing: 0.48px;
+border-radius: 4px;
+    border: 2px solid rgba(245, 244, 250, 1); 
+}
+.fiter-buttonm{
+    color: rgba(33, 33, 33, 1);
+    width: 130px;
+height: 38px;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.625em;
+letter-spacing: 0.48px;
+border-radius: 4px;
+    border: 2px solid rgba(245, 244, 250, 1);
+}
+
+.fiter-button:hover,
+.fiter-button:focus,
+.fiter-button:active,
+.fiter-buttonw:hover,
+.fiter-buttonw:focus,
+.fiter-buttonw:active,
+.fiter-buttona:hover,
+.fiter-buttona:focus,
+.fiter-buttona:active,
+.fiter-buttond:hover,
+.fiter-buttond:focus,
+.fiter-buttond:active,
+.fiter-buttonm:hover,
+.fiter-buttonm:focus,
+.fiter-buttonm:active{
+    cursor: pointer;
+    background-color: #2196F3;
+    color:  var(--detail-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+     0px 1px 2px rgba(0, 0, 0, 0.08), 
+     0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.team{
+   padding-left:24px;
+   padding: right 24px;
 }
 
 .team-imag__container{
