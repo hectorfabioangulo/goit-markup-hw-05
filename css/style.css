@@ -19,6 +19,11 @@ font-family:'Roboto', sans-serif;
  color: #000;
 }
 
+svg{
+    fill: currentcolor;
+}
+
+
 .logo-blue{
     color:var(--blue);
 text-align: right;
@@ -46,7 +51,16 @@ cursor: pointer;
     color: var(--blue);
    outline: none;
 }
-
+.current::after {
+    content: "";
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 4px;
+    bottom: -37px;
+    background-color: var(--blue);
+    border-radius: 4px;
+  }
 .header-email{
     font-family: 'Roboto', sans-serif;
     color: #757575;
@@ -107,7 +121,6 @@ border-radius: 4px;
     letter-spacing: 0.03em;
     text-transform: uppercase; 
     text-align: center;
-
 
 }
 
@@ -299,7 +312,6 @@ rgba(0,0,0,0.4)
 ), url(../images/soluciones\ eficases.jpg);
 }
 .section{
-    padding-bottom: 94px;
     padding-top:94px;
 
 }
@@ -357,11 +369,13 @@ padding-bottom:94px;
 
 
 .about__redes{
-   display: flex;
-  justify-content: center;
-  padding-top:16px;
-  padding-bottom:42px;
-  gap:12px;
+    display: inline-flex;
+    justify-content: center;
+    padding-top:16px;
+    padding-bottom:42px;
+  padding-left:10px;
+  padding-right: 10px ;
+  
 }
 
 .redes{
@@ -372,14 +386,14 @@ padding-bottom:94px;
     display: flex;
     justify-content: center;
     align-items: center;
-    fill: rgba(175, 177, 184, 1);
+    color: rgba(175, 177, 184, 1);
 }
 .social:hover,
 .social:focus,
 .redes:hover,
 .redes:focus{
     background-color: #2196F3;
-    fill: var(--detail-color);
+    color: var(--detail-color);
 outline: none;
 }
 
@@ -423,7 +437,6 @@ margin-top:0px;
 }
 /*--------------septima-----------*/
 .section-clientes{
-padding-top:94px ;
 padding-bottom:94px ;
 }
 .item-logit{
@@ -450,11 +463,11 @@ padding-top: 59px;
 height: 81px;
 border: 1px solid #AFB1B8;
 border-radius: 4px;
-fill:rgba(175, 177, 184, 1) ;
+color:rgba(175, 177, 184, 1) ;
 }
 .logits:hover,
 .logits:focus{
-    fill:var(--blue);
+    color:var(--blue);
 border: 2px solid var(--var-color-fondo-hover-focus);
 border-radius: 2px;
 outline: none;
@@ -465,6 +478,7 @@ outline: none;
 
 
 .directions__container{
+    width:1600px;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 60px;
@@ -472,7 +486,7 @@ outline: none;
     gap: 70px;
 }
 .address{
-    display: flex;
+    display:inline-flex;
     align-items: baseline;
     gap:70px;
 }
@@ -531,7 +545,7 @@ padding-bottom:60px;
      display:inline-flex;
      justify-content: center;
    align-items: center;
-     fill: rgba(175, 177, 184, 1);
+     color: rgba(175, 177, 184, 1);
 }
 
 
