@@ -14,7 +14,7 @@ box-sizing: border-box;
     --var--var-colo-text-hover-focus :#FFF;
     --cubic-bezier-animation: cubic-bezier(0.4, 0, 0.2, 1);
     --time-animation: 250ms;
-    
+
 }
 body{
 font-family:'Roboto', sans-serif;
@@ -315,7 +315,7 @@ rgba(0,0,0,0.4)
 ), url(../images/soluciones\ eficases.jpg);
 }
 .section{
-    padding-top:94px;
+    padding-top:170px;
 
 }
 .title_container{
