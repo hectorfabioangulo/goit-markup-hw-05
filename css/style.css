@@ -14,6 +14,7 @@ box-sizing: border-box;
     --var--var-colo-text-hover-focus :#FFF;
     --cubic-bezier-animation: cubic-bezier(0.4, 0, 0.2, 1);
     --time-animation: 250ms;
+--white: rgb(255, 255, 255);
 
 }
 body{
@@ -39,6 +40,10 @@ cursor: pointer;
 }
 
 .link{
+    transition:  250ms var(--cubic-bezier-animation);
+}   
+
+.link{
     color:rgba(33, 33, 33, 1);
     font-family: 'Roboto', sans-serif;
 font-size: 14px;
@@ -49,11 +54,15 @@ text-align: left;
 cursor: pointer;
 }
 
+
 .link:hover,
 .link:focus{
     color: var(--blue);
    outline: none;
 }
+
+
+
 .current::after {
     content: "";
     position: relative;
@@ -64,6 +73,11 @@ cursor: pointer;
     background-color: var(--blue);
     border-radius: 4px;
   }
+
+  .header-email{
+    transition:  250ms var(--cubic-bezier-animation);
+}
+  
 .header-email{
     font-family: 'Roboto', sans-serif;
     color: #757575;
@@ -78,9 +92,12 @@ letter-spacing: 0.03em;
 
 .header-email:hover,
 .header-email:focus{
-    fill: var(--blue);
-   
+    fill: var(--blue);   
 }
+
+.header-tel{
+    transition:  250ms var(--cubic-bezier-animation);
+} 
 
 .header-tel {
     
@@ -98,8 +115,6 @@ letter-spacing: 0.03em;
 .header-tel:focus{
     fill: var(--blue);
 }
-
-
 
 .hero-btn{
     background-color: var(--blue);
@@ -204,6 +219,9 @@ font-weight: 700;
 letter-spacing: 0.03em;
 }
 
+.fiter-button{
+    transition:  250ms var(--cubic-bezier-animation);
+}
 
 .headr-button{
     color: #212121;
@@ -224,6 +242,11 @@ height: 26;
     color: #ffffff;
     cursor: pointer;
 }
+
+.team-diseño{
+    transition:  250ms var(--cubic-bezier-animation);
+}
+
 .team-diseño{
     color: #212121;
     font-family:'Roboto', sans-serif;
@@ -340,8 +363,12 @@ border-radius:4px;
 display: flex;
 justify-content: center;
 align-items: center;
-
 }
+
+.about__imagenes{
+    transition: fill 250ms var(--cubic-bezier-animation);
+}
+
 .about__imagenes:hover{
        fill: var(--blue);
        
@@ -412,6 +439,10 @@ text-transform: uppercase;
 }
 
 .redes{
+    transition:  250ms var(--cubic-bezier-animation);
+}
+
+.redes{
     background-color:rgb(255, 255, 255);
    border-radius:50%;
    width: 44px;
@@ -425,7 +456,7 @@ text-transform: uppercase;
 .social:focus,
 .redes:hover,
 .redes:focus{
-    background-color: #2196F3;
+    background-color: var(--blue);
     color: var(--detail-color);
 outline: none;
 }
@@ -488,6 +519,11 @@ padding-top: 59px;
     display: flex;
     gap:30px;
 }
+
+.logits{
+    transition:  250ms var(--cubic-bezier-animation);
+} 
+
 .logits{
     display: flex;
     justify-content:center;
@@ -571,6 +607,10 @@ padding-bottom:60px;
 }
 
 .social{
+    transition:  250ms var(--cubic-bezier-animation);
+}
+
+.social{
     background-color:rgba(255, 255, 255, 0.1) ;
     border-radius:50%;
     width: 44px;
@@ -589,7 +629,9 @@ padding-bottom:60px;
     justify-content:center;
     gap:15px;
     padding:94px;
+    transition:  250ms var(--cubic-bezier-animation);
 }
+
 .fiter-button{
     cursor: pointer;
     width: 73px;
@@ -606,9 +648,12 @@ font-family: 'Roboto', sans-serif;
     border-radius: 4px;
     Background: var(--blue);
 
-
-
 }
+
+.fiter-buttonw{
+    transition:  250ms var(--cubic-bezier-animation);
+}
+
 .fiter-buttonw{
     color:rgba(33, 33, 33, 1);
     width: 128px;
@@ -623,6 +668,11 @@ height: 38px;
     border-radius: 4px;
     border: 2px solid rgba(245, 244, 250, 1);
 }
+
+.fiter-buttona{
+    transition:  250ms var(--cubic-bezier-animation);
+}
+
 .fiter-buttona{
     color: rgba(33, 33, 33, 1);
     width: 145px;
@@ -637,6 +687,15 @@ letter-spacing: 0.48px;
 border-radius: 4px;
     border: 2px solid rgba(245, 244, 250, 1) ;
 }
+
+.fiter-buttond{
+    transition:  250ms var(--cubic-bezier-animation);
+}
+
+.fiter-buttond{
+transition:  250ms var(--cubic-bezier-animation);
+}
+
 .fiter-buttond{
     color: rgba(33, 33, 33, 1);
     width: 103px;
@@ -651,6 +710,11 @@ letter-spacing: 0.48px;
 border-radius: 4px;
     border: 2px solid rgba(245, 244, 250, 1); 
 }
+
+.fiter-buttonm{
+    transition:  250ms var(--cubic-bezier-animation);
+}
+
 .fiter-buttonm{
     color: rgba(33, 33, 33, 1);
     width: 130px;
@@ -689,6 +753,11 @@ border-radius: 4px;
      0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+.fiter{
+    transition:  250ms var(--cubic-bezier-animation);
+}
+
+
 .team{
    padding-left:24px;
    padding: right 24px;
@@ -723,7 +792,7 @@ border-radius: 4px;
     display: flex;
   
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms,
-      visibility 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+      visibility: 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   }
   
   .backdrop.is-hidden {
@@ -738,7 +807,7 @@ border-radius: 4px;
     position: fixed;
     top: 50%;
     left: 50%;
-    background-color: var(--white-font);
+    background-color: var(--white);
     border-radius: 4px;
     transform: translate(-50%, -50%);
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.14),
@@ -756,8 +825,8 @@ border-radius: 4px;
     right: 10px;
     opacity: 1;
     visibility: visible;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms,
-      visibility 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    transition: opacity 250ms, cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+ visibility 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   }
   
   .close-button:hover,
